@@ -3,7 +3,7 @@
 A page of the Ingress mission banners I have done: my mission medals from Ingress, matched with
 [Bannergress](https://bannergress.com), with a map of where each banner starts.
 
-This repository (`ingress-banners`) is made and filled by the
+This repository (`ingress-banners` unless you chose another name) is made and filled by the
 [KMyBanners app](https://github.com/elkuku/KMyBanners) — there is nothing to edit by hand.
 
 ## How it works
@@ -19,7 +19,9 @@ This repository (`ingress-banners`) is made and filled by the
    list by picture and publishes the page. Medals it can't match for sure are marked **To check**:
    pick the banner in the app (saved in `corrections.json`).
 
-The page is at `https://<your GitHub name>.github.io/ingress-banners/`.
+The page is at `https://<your GitHub name>.github.io/<repository name>/`. You can rename the repository in
+the app's settings: the page then moves to the new address (GitHub doesn't forward the old one). The app
+finds the repository by its topic `kmybanners`.
 
 **Privacy:** the page is public and shows on a map where you did banners. Delete the repository to
 remove it.
