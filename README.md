@@ -13,7 +13,8 @@ This repository (`ingress-banners`) is made and filled by the
 2. Sign in to Bannergress in the app: it saves your done list here (`done.json`).
 3. In Ingress, open your agent profile, tap the arrow next to the mission medals and take screenshots
    while you scroll down (about half a screen each, wait until the pictures have loaded). Share them
-   to the app: it puts them in `inbox/`.
+   to the app: it puts them in `inbox/`. Later, for new medals, screenshots from the top down to medals
+   that were there before are enough.
 4. The workflow stitches the screenshots (`capture/medals.jpg`), matches every medal row with your done
    list by picture and publishes the page. Medals it can't match for sure are marked **To check**:
    pick the banner in the app (saved in `corrections.json`).
@@ -28,8 +29,9 @@ remove it.
 | File | |
 |---|---|
 | `config.json` | Your agent name |
-| `inbox/` | New screenshots from the app (emptied by the workflow) |
-| `capture/medals.jpg` | Your stitched mission medals |
+| `inbox/` | New screenshots from the app (the workflow moves them to `captures/`) |
+| `captures/` | The screenshots of every build, kept |
+| `capture/medals.jpg` | Your stitched mission medals: new screenshots are joined onto them |
 | `done.json` | Your Bannergress done list |
 | `corrections.json` | Medals you matched by hand in the app |
 | `notes.json` | Optional notes per banner (Bannergress id → text) |
