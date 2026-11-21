@@ -21,10 +21,11 @@ This repository (`ingress-banners` unless you chose another name) is made and fi
 
 The page is at `https://<your GitHub name>.github.io/<repository name>/`. You can rename the repository in
 the app's settings: the page then moves to the new address (GitHub doesn't forward the old one). The app
-finds the repository by its topic `kmybanners`.
+finds the repository by its topic `kmybanners`, and so does the
+[directory of agents' pages](https://elkuku.github.io/KMyBanners-directory/), which lists the public pages once a day.
 
-**Privacy:** the page is public and shows on a map where you did banners. Delete the repository to
-remove it.
+**Privacy:** the page is public and shows on a map where you did banners, and it is listed in the directory.
+Delete the repository to remove the page; it then also leaves the directory with its next daily update.
 
 ## Files
 
