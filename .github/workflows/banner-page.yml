@@ -11,4 +11,6 @@ permissions:
   id-token: write
 jobs:
   page:
+    # Not in the template itself: it has no Pages site (repos made from it are no templates)
+    if: ${{ !github.event.repository.is_template }}
     uses: elkuku/KMyBanners-tool/.github/workflows/build-page.yml@v1
