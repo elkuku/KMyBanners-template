@@ -24,14 +24,15 @@ the app's settings: the page then moves to the new address (GitHub doesn't forwa
 finds the repository by its topic `kmybanners`, and so does the
 [directory of agents' pages](https://elkuku.github.io/KMyBanners-directory/), which lists the public pages once a day.
 
-**Privacy:** the page is public and shows on a map where you did banners, and it is listed in the directory.
-Delete the repository to remove the page; it then also leaves the directory with its next daily update.
+**Privacy:** the page is public and shows on a map where you did banners, and it is listed in the directory
+unless you turn off **List my page in the directory** in the app's settings. Delete the repository to remove
+the page; it then also leaves the directory with its next daily update.
 
 ## Files
 
 | File | |
 |---|---|
-| `config.json` | Your agent name |
+| `config.json` | Your agent name, when the done list was uploaded, and `"directory": false` if the page isn't listed |
 | `inbox/` | New screenshots from the app (the workflow moves them to `captures/`) |
 | `captures/` | The screenshots of every build, kept |
 | `capture/medals.jpg` | Your stitched mission medals: new screenshots are joined onto them |
